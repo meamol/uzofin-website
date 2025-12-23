@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Uzofin | Single Page Website</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="main-content">
+      <header class="appHeader sticky">
+        <div class="container">
+          <a href="#" class="logo">
+            <img alt="UzoFin" src="images/uzofin-logo.svg" />
+          </a>
+          <nav class="nav desktop">
+            <div class="nav-item">
+              <a class="active">AI Banking</a>
+            </div>
+            <div class="nav-item dropdown">
+              <span>Payments</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-down"
+                aria-hidden="true"
+              >
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </div>
+            <div class="nav-item dropdown">
+              <span>Payouts</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-down"
+                aria-hidden="true"
+              >
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </div>
+            <div class="nav-item"><a>Support</a></div>
+          </nav>
+          <div class="cta desktop">
+            <button
+              class="button button--primary button--lg"
+              aria-label="START BUILDING"
+            >
+              <span class="button__label">START BUILDING</span>
+              <span class="button__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <button class="hamburger" aria-label="Toggle menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu"
+              aria-hidden="true"
+            >
+              <path d="M4 5h16"></path>
+              <path d="M4 12h16"></path>
+              <path d="M4 19h16"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="mobile-menu">
+          <nav>
+            <a>AI Banking</a><a>Payments</a><a>Payouts</a><a>Support</a>
+            <button
+              class="button button--primary button--lg"
+              aria-label="START BUILDING"
+            >
+              <span class="button__label">START BUILDING</span>
+              <span class="button__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <section class="heroSection isVisible">
+        <div class="container">
+          <div class="hero-content-block animate">
+            <h1 class="hero-main-title">
+              AI-powered
+              <span class="gradient-text-1">
+                Banking &amp; Payment Solutions
+              </span>
+              built for Modern Businesses
+            </h1>
+            <p class="hero-content-descrp">
+              UzOfin brings intelligent automation, real-time payments, and
+              seamless financial operations together so you can scale without
+              friction.
+            </p>
+          </div>
+          <div class="hero-action-block animate">
+            <button
+              class="button button--primary button--lg"
+              aria-label="START BUILDING"
+            >
+              <span class="button__label">START BUILDING</span>
+              <span class="button__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
+            </button>
+            <button
+              class="button button--secondary button--lg"
+              aria-label="START BUILDING"
+            >
+              <span class="button__label">READ DOCS</span>
+              <span class="button__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="powering-tools">
+        <div class="container">
+          <h5>Powering tools and integration for companies around the world</h5>
+          <div class="powering-tools-wrapper">
+            <img alt="Brave" src="images/powering-tools-1.png" />
+            <img alt="Circle" src="images/powering-tools-2.png" />
+            <img alt="Discord" src="images/powering-tools-3.png" />
+            <img alt="Google" src="images/powering-tools-4.png" />
+            <img alt="jump" src="images/powering-tools-5.png" />
+            <img alt="powering" src="images/powering-tools-6.png" />
+            <img alt="" src="images/powering-tools-7.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="business-section">
+        <div class="container">
+          <div class="business-grid">
+            <div class="left">
+              <p class="eyebrow">
+                Your Business Pays Are Now Faster and Secure
+              </p>
+              <div class="visual">
+                <img
+                  alt="Visual Orb"
+                  class="rotate-wave"
+                  src="images/spiral-line.svg"
+                />
+              </div>
+              <div class="suite">
+                <h3>Our Intelligent Financial Suite</h3>
+                <p class="desc">
+                  <span class="blue-dot">&middot</span> Tools That Accelerate
+                  Every Step Of Your Financial Workflow.
+                </p>
+              </div>
+            </div>
+            <div class="right">
+              <div class="stats">
+                <div class="stat">
+                  <h3 class="gradient-text-2">11.5M+</h3>
+                  <p>Transactions processed monthly</p>
+                </div>
+                <div class="stat">
+                  <h3 class="gradient-text-3">99.9%</h3>
+                  <p>Platform uptime and reliability</p>
+                </div>
+                <div class="stat">
+                  <h3 class="gradient-text-4">70% <span>Faster</span></h3>
+                  <p>Merchant onboarding with AI automation</p>
+                </div>
+              </div>
+              <div class="features">
+                <div class="feature">
+                  <div class="space-gap"></div>
+                  <h4 class="blue">AI Banking</h4>
+                  <p>
+                    Smart, automated digital banking for businesses. Instant
+                    onboarding, intelligent insights, and real-time account
+                    operations.
+                  </p>
+                  <h5>
+                    <span class="meta blue">3,969</span> transactions per second
+                  </h5>
+                </div>
+                <div class="feature">
+                  <h4 class="yellow">Payments</h4>
+                  <p>
+                    Fast, secure, and scalable payment infrastructure. Send and
+                    receive money globally with ease.
+                  </p>
+                  <h5><span class="meta blue">1,675</span> validator nodes</h5>
+                </div>
+                <div class="feature">
+                  <div class="space-gap"></div>
+                  <h4 class="purple">Payouts</h4>
+                  <p>
+                    Bulk, automated payouts built for high-volume businesses.
+                    Reliable, trackable, and compliant.
+                  </p>
+                  <h5>
+                    <span class="meta blue">163,077,581,394</span> Total
+                    transactions
+                  </h5>
+                </div>
+                <div class="feature">
+                  <h4 class="green">Merchant Onboarding</h4>
+                  <p>
+                    Frictionless onboarding for merchants at any scale.
+                    Automated KYC and risk assessments done in minutes.
+                  </p>
+                  <h5>
+                    <span class="metadot">100%</span> On-time merchant
+                    <br />
+                    Onboard
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-uzofin">
+        <div class="container">
+          <header class="header">
+            <h2 class="title">
+              Why <span class="gradient-text-5">UzOFin?</span>
+            </h2>
+            <p class="para">
+              Discover endless creativity with PromptVerse. Generate diverse
+              content effortlessly using prompts. Stay updated with real-time
+              trends, automate tasks, and extract insights from any document or
+              URL. All within a sleek, futuristic design. Create more,
+              effortlessly.
+            </p>
+          </header>
+        </div>
+        <div class="scroll-wrapper">
+          <ul>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Unified Dashboard Manage banking, payments, and merchants in one
+                place.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                AI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                AI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Unified Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Build, integrate, and launch faster.
+              </a>
+            </li>
+          </ul>
+          <ul aria-hidden="true">
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Developer-Friendly APIs
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Bank-level encryption and compliance.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Enterprise-Grade Security
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Build, integrate, and launch faster.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Developer-Friendly APIsite
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                The flexibility to pay with various payment options like cards,
+                wallets, etc.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Transparent Pricing
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="scroll-wrapper reverse">
+          <ul>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                WAI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Designed for startups to enterprises.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Scalable Infrastructure
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Bank-level encryption and compliance.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Enterprise-Grade Security
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Unified Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Manage banking, payments, and merchants in one place.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Transparent Pricing
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                The flexibility to pay with various payment options like cards,
+                wallets, etc.
+              </a>
+            </li>
+          </ul>
+          <ul aria-hidden="true">
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Build, integrate, and launch faster.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Developer-Friendly APIsite
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                AI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Designed for startups to enterprises.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Scalable Infrastructure
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Manage banking, payments, and merchants in one place.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Transparent Pricing
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                The flexibility to pay with various payment options like cards,
+                wallets, etc.
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="scroll-wrapper">
+          <ul>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Unified Dashboard Manage banking, payments, and merchants in one
+                place.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                AI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                WAI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Unified Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Manage banking, payments, and merchants in one place.
+              </a>
+            </li>
+          </ul>
+          <ul aria-hidden="true">
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Unified Dashboard Manage banking, payments, and merchants in one
+                place.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                AI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                WAI-Driven Decisions
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Automate approvals, verification, and financial operations.
+              </a>
+            </li>
+            <li class="sroll-wrapper-item">
+              <h5 class="sroll-item-title">
+                Unified Dashboard
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </span>
+              </h5>
+              <a href="/" class="gradient-text-3">
+                Manage banking, payments, and merchants in one place.
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="build-with-us">
+        <div class="container">
+          <header class="header">
+            <h2 class="title">
+              Build Faster with Our
+              <span class="gradient-text-5">Powerful API’s</span>
+            </h2>
+            <p class="para">
+              Plug into secure, developer-friendly financial API’s and launch in
+              days, not months
+            </p>
+          </header>
+        </div>
+        <div class="button-wrapper">
+          <button
+            class="button button--primary button--lg"
+            aria-label="START BUILDING"
+          >
+            <span class="button__label">START BUILDING</span>
+            <span class="button__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="industry-standards">
+        <header class="header">
+          <h3 class="support-text">24/7 support</h3>
+          <h2 class="title">
+            Industry <span class="gradient-text-5">Standard</span>
+          </h2>
+        </header>
+        <div class="scroller">
+          <div class="slick-slider cards-wrapper slick-initialized" dir="ltr">
+            <div class="slick-list" style="padding: 0px 110px">
+              <div
+                class="slick-track"
+                style="
+                  width: 5208px;
+                  opacity: 1;
+                  transform: translate3d(-2232px, 0px, 0px);
+                  transition: -webkit-transform 7000ms;
+                "
+              >
+                <div
+                  data-index="-3"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">SaaS based solution</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="-2"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Modern &amp; clean design</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="-1"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Easy to customize</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="0"
+                  class="slick-slide"
+                  tabindex="-1"
+                  aria-hidden="true"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Step-by-step guide</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="1"
+                  class="slick-slide"
+                  tabindex="-1"
+                  aria-hidden="true"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">SaaS based solution</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="2"
+                  class="slick-slide"
+                  tabindex="-1"
+                  aria-hidden="true"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Modern &amp; clean design</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="3"
+                  class="slick-slide slick-active"
+                  tabindex="-1"
+                  aria-hidden="false"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Scalability & Integration</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="4"
+                  class="slick-slide slick-active slick-center slick-current"
+                  tabindex="-1"
+                  aria-hidden="false"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Step-by-step guide</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="5"
+                  class="slick-slide slick-active"
+                  tabindex="-1"
+                  aria-hidden="false"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">SaaS based solution</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="6"
+                  class="slick-slide"
+                  tabindex="-1"
+                  aria-hidden="true"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Modern &amp; clean design</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="7"
+                  class="slick-slide"
+                  tabindex="-1"
+                  aria-hidden="true"
+                  style="outline: none; width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Easy to customize</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="8"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Step-by-step guide</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="9"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">SaaS based solution</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="10"
+                  tabindex="-1"
+                  class="slick-slide slick-cloned"
+                  aria-hidden="true"
+                  style="width: 372px"
+                >
+                  <div>
+                    <div
+                      class="card-slide"
+                      tabindex="-1"
+                      style="width: 100%; display: inline-block"
+                    >
+                      <div class="item">
+                        <h3 class="card-title">Modern &amp; clean design</h3>
+                        <p class="card-text">
+                          Lorem ipsum is a dummy or placeholder text commonly
+                          used in graphic design, publishing, and web
+                          development. Its purpose is to permit a page layout to
+                          be designed.
+                          <a href="#" class="know-more-link">Know more</a>
+                        </p>
+                        <span class="circle-check-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="48"
+                            height="48"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-circle-check-big"
+                            aria-hidden="true"
+                          >
+                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                            <path d="m9 11 3 3L22 4"></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="slick-dots" style="display: block">
+              <li class=""><button>1</button></li>
+              <li class=""><button>2</button></li>
+              <li class=""><button>3</button></li>
+              <li class=""><button>4</button></li>
+              <li class="slick-active"><button>5</button></li>
+              <li class=""><button>6</button></li>
+              <li class=""><button>7</button></li>
+              <li class=""><button>8</button></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="the-future">
+        <div class="container">
+          <header class="header">
+            <h2 class="title">
+              The future of your industry
+              <span class="gradient-text-5">starts&nbsp;here</span>
+            </h2>
+            <div class="button-wrapper">
+              <button
+                class="button button--primary button--lg"
+                aria-label="Book A Demo"
+              >
+                <span class="button__label">Book A Demo</span>
+                <span class="button__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="button button--secondary button--lg"
+                aria-label="Book A Demo"
+              >
+                <span class="button__label">Build AI</span>
+                <span class="button__icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </header>
+        </div>
+      </section>
+
+      <footer class="footer-container">
+        <div class="footer-inner">
+          <div class="footer-left">
+            <div class="footer-left-text">
+              <a href="/" class="footer-logo">
+                <img alt="Banner" src="images/uzofin-footer-logo.svg" />
+              </a>
+              <p class="footer-logo-txt">
+                Experience the new age of payments with UzOFin and explore new
+                growth opportunities to reach greater heights
+              </p>
+            </div>
+            <div class="footer-right">
+              <div class="footer-right-links">
+                <h4>Products</h4>
+                <ul>
+                  <li><a href="/">AI Banking</a></li>
+                  <li><a href="/">Payment</a></li>
+                  <li><a href="/">Payout</a></li>
+                  <li><a href="/">Merchant Onboarding</a></li>
+                  <li><a href="/">FRM</a></li>
+                </ul>
+              </div>
+              <div class="footer-right-links">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="/">About Us</a></li>
+                  <li><a href="/">Help Center</a></li>
+                  <li><a href="/">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-right-links">
+                <h4>Legal</h4>
+                <ul>
+                  <li><a href="/">Cookie Policy</a></li>
+                  <li><a href="/">Privacy Policy</a></li>
+                  <li><a href="/">Terms of Service</a></li>
+                </ul>
+              </div>
+              <div class="footer-right-links">
+                <h4>Social</h4>
+                <ul class="footer-social-tab">
+                  <li>
+                    <span class="footer-social-links">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.8169 0.000111863H1.1831C1.02984 -0.0020038 0.877667 0.0259095 0.735264 0.0822577C0.592861 0.138606 0.463021 0.222285 0.353157 0.328517C0.243293 0.434748 0.155559 0.561451 0.0949633 0.70139C0.0343681 0.841328 0.00209931 0.99176 0 1.1441V14.8559C0.00209931 15.0082 0.0343681 15.1587 0.0949633 15.2986C0.155559 15.4385 0.243293 15.5653 0.353157 15.6715C0.463021 15.7777 0.592861 15.8614 0.735264 15.9177C0.877667 15.9741 1.02984 16.002 1.1831 15.9999H14.8169C14.9702 16.002 15.1223 15.9741 15.2647 15.9177C15.4071 15.8614 15.537 15.7777 15.6468 15.6715C15.7567 15.5653 15.8444 15.4385 15.905 15.2986C15.9656 15.1587 15.9979 15.0082 16 14.8559V1.1441C15.9979 0.99176 15.9656 0.841328 15.905 0.70139C15.8444 0.561451 15.7567 0.434748 15.6468 0.328517C15.537 0.222285 15.4071 0.138606 15.2647 0.0822577C15.1223 0.0259095 14.9702 -0.0020038 14.8169 0.000111863ZM4.85312 13.3919H2.43863V6.19203H4.85312V13.3919ZM3.64588 5.18404C3.31289 5.18404 2.99354 5.05256 2.75808 4.81851C2.52262 4.58447 2.39034 4.26704 2.39034 3.93606C2.39034 3.60507 2.52262 3.28764 2.75808 3.0536C2.99354 2.81956 3.31289 2.68807 3.64588 2.68807C3.82269 2.66814 4.00175 2.68556 4.17133 2.73918C4.3409 2.7928 4.49717 2.88142 4.6299 2.99924C4.76264 3.11706 4.86883 3.26141 4.94155 3.42285C5.01426 3.58429 5.05185 3.75918 5.05185 3.93606C5.05185 4.11294 5.01426 4.28782 4.94155 4.44926C4.86883 4.6107 4.76264 4.75506 4.6299 4.87287C4.49717 4.99069 4.3409 5.07931 4.17133 5.13293C4.00175 5.18656 3.82269 5.20397 3.64588 5.18404ZM13.5614 13.3919H11.1469V9.52798C11.1469 8.55999 10.8008 7.928 9.92354 7.928C9.65204 7.92998 9.38768 8.01462 9.16607 8.17054C8.94445 8.32645 8.77625 8.54613 8.6841 8.79999C8.62112 8.98802 8.59383 9.18604 8.60362 9.38398V13.3839H6.18913V6.18402H8.60362V7.20001C8.82296 6.8217 9.14198 6.51004 9.52631 6.29859C9.91064 6.08713 10.3457 5.98391 10.7847 6.00003C12.3944 6.00003 13.5614 7.03201 13.5614 9.24798V13.3919Z"
+                          fill="#94A3B8"
+                        ></path>
+                      </svg>
+                    </span>
+                    <a href="/uzofin" aria-label="/uzofin">/uzofin</a>
+                  </li>
+                  <li>
+                    <span class="footer-social-links">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.6 0H15.0537L9.69372 6.14171L16 14.5006H11.0629L7.19314 9.432L2.77029 14.5006H0.314286L6.04686 7.92914L0 0.00114284H5.06286L8.55543 4.63314L12.6 0ZM11.7371 13.0286H13.0971L4.32 1.39543H2.86171L11.7371 13.0286Z"
+                          fill="#94A3B8"
+                        ></path>
+                      </svg>
+                    </span>
+                    <a href="/uzofin" aria-label="/uzofin">/uzofin</a>
+                  </li>
+                  <li>
+                    <span class="footer-social-links">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.64 0H11.36C13.92 0 16 2.08 16 4.64V11.36C16 12.5906 15.5111 13.7708 14.641 14.641C13.7708 15.5111 12.5906 16 11.36 16H4.64C2.08 16 0 13.92 0 11.36V4.64C0 3.4094 0.488856 2.22919 1.35902 1.35902C2.22919 0.488856 3.4094 0 4.64 0ZM4.48 1.6C3.71618 1.6 2.98364 1.90343 2.44353 2.44353C1.90343 2.98364 1.6 3.71618 1.6 4.48V11.52C1.6 13.112 2.888 14.4 4.48 14.4H11.52C12.2838 14.4 13.0164 14.0966 13.5565 13.5565C14.0966 13.0164 14.4 12.2838 14.4 11.52V4.48C14.4 2.888 13.112 1.6 11.52 1.6H4.48ZM12.2 2.8C12.4652 2.8 12.7196 2.90536 12.9071 3.09289C13.0946 3.28043 13.2 3.53478 13.2 3.8C13.2 4.06522 13.0946 4.31957 12.9071 4.50711C12.7196 4.69464 12.4652 4.8 12.2 4.8C11.9348 4.8 11.6804 4.69464 11.4929 4.50711C11.3054 4.31957 11.2 4.06522 11.2 3.8C11.2 3.53478 11.3054 3.28043 11.4929 3.09289C11.6804 2.90536 11.9348 2.8 12.2 2.8ZM8 4C9.06087 4 10.0783 4.42143 10.8284 5.17157C11.5786 5.92172 12 6.93913 12 8C12 9.06087 11.5786 10.0783 10.8284 10.8284C10.0783 11.5786 9.06087 12 8 12C6.93913 12 5.92172 11.5786 5.17157 10.8284C4.42143 10.0783 4 9.06087 4 8C4 6.93913 4.42143 5.92172 5.17157 5.17157C5.92172 4.42143 6.93913 4 8 4ZM8 5.6C7.36348 5.6 6.75303 5.85286 6.30294 6.30294C5.85286 6.75303 5.6 7.36348 5.6 8C5.6 8.63652 5.85286 9.24697 6.30294 9.69706C6.75303 10.1471 7.36348 10.4 8 10.4C8.63652 10.4 9.24697 10.1471 9.69706 9.69706C10.1471 9.24697 10.4 8.63652 10.4 8C10.4 7.36348 10.1471 6.75303 9.69706 6.30294C9.24697 5.85286 8.63652 5.6 8 5.6Z"
+                          fill="#94A3B8"
+                        ></path>
+                      </svg>
+                    </span>
+                    <a href="/uzofin" aria-label="/uzofin">/uzofin</a>
+                  </li>
+                  <li>
+                    <span class="footer-social-links">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M16 8.02005C16 3.59298 12.416 0 8 0C3.584 0 0 3.59298 0 8.02005C0 11.9018 2.752 15.1338 6.4 15.8797V10.4261H4.8V8.02005H6.4V6.01504C6.4 4.46717 7.656 3.20802 9.2 3.20802H11.2V5.61404H9.6C9.16 5.61404 8.8 5.97494 8.8 6.41604V8.02005H11.2V10.4261H8.8V16C12.84 15.599 16 12.1825 16 8.02005Z"
+                          fill="#94A3B8"
+                        ></path>
+                      </svg>
+                    </span>
+                    <a href="/uzofin" aria-label="/uzofin">/uzofin</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <span>Copyright © 2025 UzOFin. All rights reserved</span
+            ><span>India (EN)</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+    </script>
+  </body>
+</html>
